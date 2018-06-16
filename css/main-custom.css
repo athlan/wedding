@@ -1,0 +1,52 @@
+body.bandp {
+  font-family: 'Playfair Display', serif;
+}
+
+h1, h2, h3,
+h4, h5, h6 {
+  font-family: 'Playfair Display', serif;
+}
+
+.bandp .banner-area {
+  background: url(../img/background-thankyou.jpg) no-repeat center center/cover;
+}
+
+.bandp .banner-area .overlay-bg {
+  background-image: -moz-linear-gradient(-45deg, #002f4b 0%, #dc4225 100%);
+  background-image: -webkit-linear-gradient(-45deg, #002f4b 0%, #dc4225 100%);
+  background-image: -ms-linear-gradient(-45deg, #002f4b 0%, #dc4225 100%);
+  opacity: 0.6;
+  /*background: linear-gradient(to bottom right,#002f4b,#dc4225);*/
+}
+
+.thankyou-container {
+  position: relative;
+}
+
+.thankyou-content {
+  padding-top: 50px;
+}
+
+.thankyou-content .p1 {
+  font-family: 'Great Vibes', cursive;
+  font-size: 4.0em;
+  line-height: 100%;
+}
+
+.thankyou-content .p2 {
+  font-size: 1.8em;
+  line-height: 100%;
+  font-weight: 400;
+}
+
+.thankyou-button .primary-btn.banner-btn {
+  /*margin-bottom: 60px;*/
+  /*background: #00ff8c;*/
+  font-size: 20px;
+  font-family: "Poppins", sans-serif;
+}
+.thankyou-button {
+  width: 100%;
+  position: absolute;
+  bottom: 10%;
+}
